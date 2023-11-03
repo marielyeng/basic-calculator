@@ -4,6 +4,7 @@
   let clear = document.querySelector(".btn-clear");
   let equal = document.querySelector(".btn-equal");
 
+  /*loop through button to identify what was pressed*/
   buttons.forEach(function (button) {
     button.addEventListener("click", function (e) {
       let value = e.target.dataset.val;
